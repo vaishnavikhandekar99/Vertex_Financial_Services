@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="AdminCustomer.css">
+<title>Customer Form Page</title>
+</head>
+<body>
+
+<form action="savecustomer" method="post" align="center">
+  <fieldset >
+     <legend >CREATE ACCOUNT !!</legend><br>
+     <label>enter id :</label>
+     <input type="number" name="id"  placeholder="id" required><br><br>
+     <label>enter name :</label>
+     <input type="text" name="name"  placeholder="username" required><br><br>
+     <label>enter pincode :</label>
+     <input type="number" name="pincode"  placeholder="enter your pincode" required><br><br>
+     
+     <input type="submit" name="regtr" value="REGISTER" style="background-color: skyblue;">
+     <input type="reset" name="cncl" value="CANCEL" style="background-color: red;"><br><br>
+     
+     Already Have an Account <a href="CustomerLogin.html">Login</a>
+  </fieldset>				
+</form>
+</body>
+</html>
