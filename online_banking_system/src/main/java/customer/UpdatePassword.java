@@ -26,6 +26,22 @@ public class UpdatePassword extends HttpServlet
 		try 
 		{
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root","vaishu");
+			PreparedStatement ps = conn.prepareStatement("update customer set pincode=? where id=? and pincode=?");
+			ps.setInt(1, Integer.parseInt(newpincode));
+			ps.setInt(2, Integer.parseInt(id));
+			ps.setInt(3, Integer.parseInt(pincode));
+
+			int count = ps.executeUpdate();
+			PrintWriter pw = resp.getWriter();
+			
+			if (count != 0) 
+			{
+				pw.print("<h1>Password Updated Successfull</h1>");
+			} 
+			else 
+			{
+				pw.println("<h1>Data Not Present</h1>");
+			}
 			
 		} 
 		catch (SQLException e) 
