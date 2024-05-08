@@ -16,7 +16,12 @@ body
 	 background-repeat: no-repeat;
      background-size: cover;
   }
- 
+  
+ h1
+ {
+   /*background-color: pink;*/
+    background-image:radial-gradient(rgb(3, 223, 252), rgb(16, 208, 233), rgb(7, 93, 129));
+ }
  
     
     
