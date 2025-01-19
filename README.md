@@ -5,6 +5,6 @@ Vertex Financial Service is a secure, web-based platform that allows users to ac
 •	Front-end Development (HTML, CSS): Design and develop intuitive user interfaces using HTML and CSS. Build responsive and user-friendly interfaces using HTML and CSS.<br>
 •	Back-End Development (Servlets): Develop Java Servlets to handle client requests, interact with the database, and generate dynamic responses.<br>
 •	Exception Management: Implement proper exception handling mechanisms to catch and respond to user input errors or database issues.<br><br>
- Technologies :- Front End - HTML, CSS, Back End - Servlet, JDBC, database - MySQL
+  Technologies :- Front End - HTML, CSS, Back End - Servlet, JDBC, database - MySQL
 
 
